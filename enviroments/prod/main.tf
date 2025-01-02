@@ -6,5 +6,5 @@ module "platform" {
   cluster_name = "my-eks"
   vpc_cidr = "10.0.0.0/16"
   aws_region = "us-east-2"
-  backend_bucket_region = "us-east-2"
+  backend_bucket_region = "us-east-1"
 }
